@@ -316,3 +316,18 @@ span[data-type="mention"] {
   padding: 4px 4px;
   border-radius: 4px;
 }
+
+.full-page-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+}

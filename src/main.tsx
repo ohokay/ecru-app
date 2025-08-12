@@ -20,6 +20,7 @@ const router = createRouter({
   scrollRestoration: true,
   defaultStructuralSharing: true,
   defaultPreloadStaleTime: 0,
+  defaultPendingComponent: () => <div className="full-page-loader">Loading...</div>,
 })
 
 // Register the router instance for type safety
