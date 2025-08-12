@@ -19,7 +19,7 @@ import {
   useSortable,
 } from '@dnd-kit/sortable'
 import { CSS } from '@dnd-kit/utilities'
-import type { TasksResponse } from '../../pocketbase-types'
+import type { TasksResponse } from '@/types/pocketbase'
 import { useTasks } from '@/hooks/useTasks'
 import { ProtectedRoute } from '@/components/ProtectedRoute'
 import { RichTextEditor } from '@/components/RichTextEditor'

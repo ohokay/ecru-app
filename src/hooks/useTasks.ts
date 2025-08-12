@@ -1,7 +1,7 @@
 import { useSuspenseQuery, useMutation, useQueryClient } from '@tanstack/react-query'
 import { useRouteContext } from '@tanstack/react-router'
-import type { TasksResponse } from '../../pocketbase-types'
-import type { AppContext } from '@/routes/__root'
+import type { TasksResponse } from '@/types/pocketbase'
+import type { AppContext } from '@/types/app'
 import { extractHeadingFromHtml } from '@/utils/extractHeadingFromHtml'
 
 export function useTasks() {

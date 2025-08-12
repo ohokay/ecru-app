@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { RichTextEditor } from '../components/RichTextEditor'
-import { type SuggestionConfig } from '../types/suggestions'
+import { RichTextEditor } from '@/components/RichTextEditor'
+import { type SuggestionConfig } from '@/types/suggestions'
 
 const USERS = [
   { id: '1', label: 'John Doe', email: 'john@example.com' },

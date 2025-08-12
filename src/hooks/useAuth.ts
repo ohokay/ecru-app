@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useRouteContext } from '@tanstack/react-router'
-import type { UsersResponse } from '../../pocketbase-types'
+import type { UsersResponse } from '@/types/pocketbase'
 
 export function useAuth() {
   const { pb } = useRouteContext({ from: '__root__' })

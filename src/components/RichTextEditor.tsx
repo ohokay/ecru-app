@@ -4,9 +4,9 @@ import Mention from '@tiptap/extension-mention'
 import Placeholder from '@tiptap/extension-placeholder'
 import { useEffect, useRef, useState } from 'react'
 import styles from './RichTextEditor.module.css'
-import { type SuggestionConfig } from '../types/suggestions'
-import { useSuggestions } from '../hooks/useSuggestions'
-import SuggestionList from './SuggestionList'
+import { type SuggestionConfig } from '@/types/suggestions'
+import { useSuggestions } from '@/hooks/useSuggestions'
+import SuggestionList from '@/components/SuggestionList'
 
 interface RichTextEditorProps {
   content: string
