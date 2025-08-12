@@ -1,0 +1,48 @@
+{
+  "name": "ecru-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "start": "vite --port 3000",
+    "build": "vite build && tsc",
+    "serve": "vite preview",
+    "pb:generate": "npx pocketbase-typegen",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "@tanstack/react-query": "^5.84.2",
+    "@tanstack/react-router": "^1.130.2",
+    "@tanstack/react-router-devtools": "^1.130.2",
+    "@tanstack/router-plugin": "^1.121.2",
+    "@tiptap/extension-mention": "^3.1.0",
+    "@tiptap/extension-placeholder": "^3.1.0",
+    "@tiptap/pm": "^3.1.0",
+    "@tiptap/react": "^3.1.0",
+    "@tiptap/starter-kit": "^3.1.0",
+    "@tiptap/suggestion": "^3.1.0",
+    "pocketbase": "^0.26.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "redaxios": "^0.5.1",
+    "tippy.js": "^6.3.7"
+  },
+  "devDependencies": {
+    "@tanstack/vite-config": "^0.2.0",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/react": "^16.2.0",
+    "@types/node": "^24.2.1",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "jsdom": "^26.0.0",
+    "pocketbase-typegen": "^1.3.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.3.5",
+    "vitest": "^3.0.5",
+    "web-vitals": "^4.2.4"
+  }
+}
