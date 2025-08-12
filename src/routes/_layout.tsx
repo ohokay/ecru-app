@@ -8,9 +8,9 @@ export const Route = createFileRoute('/_layout')({
 function RouteComponent() {
   const { logout } = useAuth()
   return (
-    <div style={{ padding: '1rem' }}>
+    <>
       <button onClick={() => logout()}>Logout</button>
       <Outlet />
-    </div>
+    </>
   )
 }
