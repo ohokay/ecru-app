@@ -4,9 +4,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite --port 3000",
-    "start": "vite --port 8080 --host=0.0.0.0",
+    "start": "vite --port 10000 --host=0.0.0.0",
     "build": "vite build && tsc --noEmit",
-    "serve": "vite preview --port=8080 --host=0.0.0.0",
+    "serve": "vite preview --port=10000 --host=0.0.0.0",
     "pb:generate": "npx pocketbase-typegen --out src/types/pocketbase.ts",
     "test": "vitest run"
   },
